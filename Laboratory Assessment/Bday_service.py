@@ -115,8 +115,8 @@ def send_EmailText(data):
 
     
 
-#add_data()
-#show_data()
+add_data()
+show_data()
 mycursor.execute(f"select * from data where birth_date = {Today}")
 list1= mycursor.fetchall()
 for i in list1:
