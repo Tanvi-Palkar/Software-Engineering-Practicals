@@ -9,8 +9,8 @@ import os
 import pywhatkit as pwt
 import smtplib
 from email.message import EmailMessage
-import twilio
-from twilio.rest import Client
+#import twilio
+#from twilio.rest import Client
 
 now = str(datetime.date.today())
 #to get date and month like 1112 
